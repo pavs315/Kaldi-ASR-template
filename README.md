@@ -1,2 +1,2 @@
 # Kaldi-ASR-template
-Steps for data preparation and training a simple HMM GMM model in Kaldi
+Scripts for training and running a simple ASR model in Kaldi
