@@ -24,13 +24,18 @@ Create the follwing files in dict
 - lexicon.txt - Can be obtained from http://www.speech.cs.cmu.edu/tools/lextool.html `<word> <phone 1> <phone 2> ...`
 - nonsilence_phones.txt `<phone>`
 - silence_phones.txt - 
-``` 
- sil
- spn
-```
+
+ ``` 
+  sil
+  spn
+  
+ ```
 - optional_silence.txt
 
-`sil`
+ ```
+ sil
+ 
+ ```
 
 ## Utils ans Config
 
