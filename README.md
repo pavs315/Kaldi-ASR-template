@@ -1,4 +1,4 @@
-# Instructions for making a simple ASR model in Kaldi
+# Instructions for making a simple HMM-GMM ASR model in Kaldi
 
 ## Train and Test Data
 
@@ -15,9 +15,12 @@ Create Test and Train folders in the Data folder with the following files in eac
 - text `<uterranceID> <text_transcription>`
 - utt2spk `<uterranceID> <speakerID>`
 
-Create a folder Local in the Data folder with the following files -
+Create a folder local with the following file and a subfolder dict -
 
 - corpus.txt `<text_transcription>`
+
+Create the follwing files in dict
+
 - lexicon.txt - Can be obtained from http://www.speech.cs.cmu.edu/tools/lextool.html `<word> <phone 1> <phone 2> ...`
 - nonsilence_phones.txt `<phone>`
 - silence_phones.txt - 
@@ -25,6 +28,31 @@ Create a folder Local in the Data folder with the following files -
  sil
  spn
 ```
+- optional_silence.txt
+-
+`sil`
+
+## Utils ans Config
+
+Copy the utils and steps folders from `Kaldi-Master/egs/wsj/s5` into the model directory
+
+## Scoring script
+
+Copy `score.sh` from `Kaldi-Master/egs/voxforge/s5/local` into the local folder of the model directory.
+
+## Config files
+
+Create a folder conf in the model directory and copy the decode.config and mfcc.conf files from this directory.
+
+## Running the Model
+
+Run `./run.sh`
+
+
+
+
+
+
 
 
 
