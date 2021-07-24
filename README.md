@@ -35,7 +35,7 @@ Create the follwing files in dict
  sil
  ```
 
-## Utils ans Config
+## Utils and Config
 
 Copy the utils and steps folders from `Kaldi-Master/egs/wsj/s5` into the model directory
 
@@ -45,11 +45,17 @@ Copy `score.sh` from `Kaldi-Master/egs/voxforge/s5/local` into the local folder 
 
 ## Config files
 
-Create a folder conf in the model directory and copy the decode.config and mfcc.conf files from this directory.
+Create a folder conf in the model directory and copy the decode.config and mfcc.conf files from this repository.
 
 ## Running the Model
 
+Copy the files `cmd.sh`, `path.sh` and `run.sh` to the project directory
+
 Run `./run.sh`
+
+
+
+
 
 
 
