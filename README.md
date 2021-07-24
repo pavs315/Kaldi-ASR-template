@@ -25,16 +25,14 @@ Create the follwing files in dict
 - nonsilence_phones.txt `<phone>`
 - silence_phones.txt - 
 
- ``` 
+ ```  
   sil
   spn
-  
  ```
 - optional_silence.txt
 
  ```
  sil
- 
  ```
 
 ## Utils ans Config
