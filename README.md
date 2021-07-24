@@ -29,7 +29,7 @@ Create the follwing files in dict
  spn
 ```
 - optional_silence.txt
--
+
 `sil`
 
 ## Utils ans Config
